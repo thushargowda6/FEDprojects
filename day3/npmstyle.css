@@ -1,0 +1,132 @@
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap"rel="stylesheet">
+*{
+	font-family: 'Nunito Sans', sans-serif;
+}
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+.logo-text
+{
+font-size: 1.2em;
+font-weight: normal;
+color: black;
+
+}
+.logoimg{
+	
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	
+
+}
+nav  ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	padding: 5px;
+}
+
+nav ul li{
+	margin: 0 15px;
+}
+.nav-link{
+	font-size: 1.2em;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	
+}
+.nav-link:hover{
+	color: #f05136;
+
+}
+.sub-nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.input{
+	width: 300px;
+}
+.linkbutton1{
+	margin: 0;
+	padding: 0;
+}
+#head{
+	background-image: url('assets/b1.png');
+	width:100%;
+	height: 850px;
+}
+
+ .content1, .content3{
+ 	padding-top:  20px;
+ 	color: white;
+	text-align: center;
+
+}
+#content2 {
+	padding-top: 20px;
+	text-align: center;
+}
+#portfolio,
+{
+	display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+}
+#portfolio div{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 0;
+	width: 100%;
+}
+#portfolio h3, p, hr{
+	margin-bottom: 20px;
+}
+
+
+#portfolio div article{
+	background-color: white;
+	color: black;
+	height: 200px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	border-radius: 10px;
+}
+#portfolio div article p{
+	padding: 0 5px;
+}
+#bio{
+	background-image: url('assets/background.png');
+	width: 100%;
+	height: 300px;
+}
+#fortune{
+	padding-top: 20px;
+	text-align: center;
+}
+.fortuneimg{
+	width: 50%;
+	height: 100%;
+	padding-bottom: 80px;
+}
+.link-button1{
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	
+	font-weight: 100;
+	letter-spacing: 0.5px;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+	
+}
+}
