@@ -1,0 +1,68 @@
+<link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+*{margin: 0;
+padding: 0;
+box-shadow: border-box;
+}
+.container{
+	background-image: url('https://blog.soomla.com/wp-content/uploads/2016/05/image-1.jpeg');
+	background-color: #7754f8;
+	background-size: cover;
+	font-family: 'Kufam', cursive;
+	display: flex;flex-direction: column;justify-content: center;
+	align-items: center;
+	align-content: center;width: 100vw;
+	height: 100vh;
+	line-height: 1.6;
+	padding: 8 28px;
+
+}
+.logo{
+	font-size: 5em;
+	color: #fec800;
+	width:488px;
+	text-align: center;
+}
+.button{
+	background-color: #fea500;
+	margin: 30px 0;
+	border-radius: 4px;
+	padding: 10px 15px;
+	min-width: 150px;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	cursor: pointer;
+
+}
+#inpu-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	color: white;
+	text-align: center;
+	margin: 20px;
+
+}
+
+input{
+	width: 200px;
+	margin: 30px;
+	height: 20px;
+	text-align: center;
+	font-size: 1.3em;
+}
+#lives-text{
+	color: white;
+
+}
+#message{
+	font-size: 1.5em;
+	background-color: #fec000;
+	padding: 5px 15px;
+	border-radius: 2px;
+	text-align: center;
+	display: none; 
+}
